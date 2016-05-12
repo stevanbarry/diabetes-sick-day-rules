@@ -1,0 +1,174 @@
+
+<!-- We don't need full layout here, because this page will be parsed with Ajax-->
+<!-- Top Navbar-->
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Back</span></a></div>
+    <div class="center sliding">My Details</div>
+    <div class="right">
+      <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+    </div>
+  </div>
+</div>
+<div class="pages">
+  <!-- Page, data-page contains page name-->
+  <div data-page="your-details" class="page">
+    <!-- Scrollable page content-->
+    <div class="page-content">
+
+
+<div class="content-block-title">Inline Picker / Date-time</div>
+<div class="content-block">
+ <div style="padding:0; margin-right:-15px; width:auto" class="content-block-inner">
+   <div style="margin:0" class="list-block">
+     <ul style="border-top:none">
+       <li>
+         <div class="item-content">
+           <div class="item-inner">
+             <div class="item-input">
+               <input type="text" placeholder="Date Time" readonly id="picker-date">
+             </div>
+           </div>
+         </div>
+       </li>
+     </ul>
+   </div>
+   <div id="picker-date-container"></div>
+ </div>
+</div>
+
+    
+      <div class="content-block-title">Add your personal details here*</div>
+      <div class="list-block">
+        <ul>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-name"></i></div>
+              <div class="item-inner"> 
+                <div class="item-title label">Name</div>
+                <div class="item-input">
+                  <input type="text" placeholder="Your name"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-email"></i></div>
+              <div class="item-inner"> 
+                <div class="item-title label">E-mail</div>
+                <div class="item-input">
+                  <input type="email" placeholder="E-mail"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-tel"></i></div>
+              <div class="item-inner"> 
+                <div class="item-title label">Phone</div>
+                <div class="item-input">
+                  <input type="tel" placeholder="Phone"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-gender"></i></div>
+              <div class="item-inner"> 
+                <div class="item-title label">Gender</div>
+                <div class="item-input">
+                  <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-calendar"></i></div>
+              <div class="item-inner"> 
+                <div class="item-title label">Birth date</div>
+                <div class="item-input">
+                  <input type="date" placeholder="Birth day" value="2014-04-30"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-comment"></i></div>
+              <div class="item-inner"> 
+                <div class="item-title label">HbA1c</div>
+                <div class="item-input">
+                  <input type="text" placeholder="mmol/mol"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="icon icon-form-calendar"></i></div>
+              <div class="item-inner"> 
+                <div class="item-title label">Date taken</div>
+                <div class="item-input">
+               <input type="text" placeholder="Date Time" readonly id="picker-date">
+             </div>
+           </div>
+         </div>
+       </li>
+     </ul>
+   </div>
+   <div id="picker-date-container"></div>
+   <div class="content-block-title">My Diabetes Type</div>
+      <div class="list-block">
+        <ul>
+          <li>
+            <label class="label-checkbox item-content">
+              <input type="checkbox" name="ks-checkbox" value="Books" checked="checked"/>
+              <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
+              <div class="item-inner">
+                <div class="item-title">Type 1</div>
+              </div>
+            </label>
+          </li>
+          <li>
+            <label class="label-checkbox item-content">
+              <input type="checkbox" name="ks-checkbox" value="Movies"/>
+              <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
+              <div class="item-inner">
+                <div class="item-title">Type 2 (non insulin dependant)</div>
+              </div>
+            </label>
+          </li>
+          <li>
+            <label class="label-checkbox item-content">
+              <input type="checkbox" name="ks-checkbox" value="Food"/>
+              <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
+              <div class="item-inner">
+                <div class="item-title">Type 2 (insulin dependant)</div>
+              </div>
+            </label>
+          </li>
+        </ul>
+      </div>
+      </li>
+        </ul>
+      </div>
+
+      <p>* Your personal information will only be shared with your consent to contacts you specify.</p>
+      <div class="content-block">
+        <div class="row">
+          <div class="col-50"><a href="#" class="button button-big button-fill color-red">Cancel</a></div>
+          <div class="col-50">
+            <input type="submit" value="Submit" class="button button-big button-fill color-green"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
